@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>office2013-proofingtools-nl</id>
+    <title>Microsoft Office Proofing Tools 2013 - Dutch (Install)</title>
+    <version>15.0.4420.1017</version>
+    <authors>Microsoft</authors>
+    <owners>quamotion</owners>
+    <summary>Microsoft Office Proofing Tools enable editing in additional languages. </summary>
+    <description>Do you want to check spelling for a language that wasn't automatically installed by Office? You're in the right place. Microsoft Office Proofing Tools includes the full set of proofing tools available for Office in this language. Just install and restart Office, and proofing tools for your language are ready to go. </description>
+    <projectUrl>http://www.microsoft.com/nl-NL/download/details.aspx?id=35400</projectUrl>
+    <tags>office 2013 proofing tools Dutch Nederlands admin</tags>
+    <copyright>Microsoft</copyright>
+    <licenseUrl>http://www.microsoft.com/nl-NL/download/details.aspx?id=35400</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://c.s-microsoft.com/nl-nl/CMSImages/office_symbol_clr_56x56.png?version=7eba901e-49a1-9255-cc0a-27de320be050</iconUrl>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
