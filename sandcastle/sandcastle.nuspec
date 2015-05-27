@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>sandcastle</id>
+    <title>Sandcastle Help File Builder and Tools (Install)</title>
+    <version>2015.5.2.0 </version>
+    <authors>Eric Woodruff</authors>
+    <owners>quamotion</owners>
+    <summary>Sandcastle Help File Builder (SHFB). A standalone GUI, Visual Studio integration package, and MSBuild tasks providing full configuration and extensibility for building help files with the Sandcastle tools.</summary>
+    <description>Sandcastle is composed of two separate parts that work together: the Sandcastle tools and the Sandcastle Help File Builder. The Sandcastle tools are used to create help files for managed class libraries containing both conceptual and API reference topics. API reference topics are created by combining the XML comments that are embedded in your source code with the syntax and structure of the types which is acquired by reflecting against the associated .NET Framework assemblies. Conceptual topics are created by converting XML documents that you author containing Microsoft Assistance Markup Language (MAML). The Sandcastle tools are command-line based and have no GUI front-end, project management features, or an automated build process.
+
+The Sandcastle Help File Builder was created to fill in the gaps, provide the missing NDoc-like features that are used most often, and provide standalone GUI and command line based tools to build a help file in an automated fashion. A Visual Studio integration package is also available for it so that help projects can be created and managed entirely from within Visual Studio.</description>
+    <projectUrl>https://github.com/EWSoftware/SHFB</projectUrl>
+    <tags>SHFB documentation sandcastle help XML comments file builder admin</tags>
+    <copyright>Eric Woodruff (c) 2006-2015</copyright>
+    <licenseUrl>https://github.com/EWSoftware/SHFB/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/EWSoftware/SHFB/master/NuGet/SHFB.png</iconUrl>
+    <dependencies>
+      <dependency id="dotnet4.0" version="4.0.30319" />
+    </dependencies>
+    <releaseNotes>https://github.com/EWSoftware/SHFB/releases/tag/v2015.5.2.0</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
