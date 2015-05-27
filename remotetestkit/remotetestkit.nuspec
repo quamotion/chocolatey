@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>remotetestkit</id>
+    <title>Remote TestKit (Install)</title>
+    <version>5.0.0.4</version>
+    <authors>NTT Resonant Inc.</authors>
+    <owners>Quamotion</owners>
+    <summary>Rent over 300 different real, physical mobile devices from the cloud..</summary>
+    <description>__REPLACE__ 
+    </description>
+    <projectUrl>https://appkitbox.com/en/testkit/</projectUrl>
+    <tags>remotetestkit rtk mobile device cloud ios android rent admin</tags>
+    <copyright>Copyright (c) NTT Resonant Inc.</copyright>
+    <licenseUrl>https://appkitbox.com/en/testkit/agreement</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://appkitbox.com/en/testkit/category/news</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
