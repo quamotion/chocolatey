@@ -8,9 +8,10 @@
     <version>5.0.0.4</version>
     <authors>NTT Resonant Inc.</authors>
     <owners>Quamotion</owners>
-    <summary>Rent over 300 different real, physical mobile devices from the cloud..</summary>
-    <description>__REPLACE__ 
-    </description>
+    <summary>Rent over 300 different real, physical mobile devices from the cloud.</summary>
+    <description>Using Remote TestKit, you can rent over 300 different real, physical iOS and Android phones and tablets devices from the cloud -- ideal for testing or developing mobile apps.
+
+See the https://appkitbox.com/en/testkit/smartphone for a full list of all devices that are available.</description>
     <projectUrl>https://appkitbox.com/en/testkit/</projectUrl>
     <tags>remotetestkit rtk mobile device cloud ios android rent admin</tags>
     <copyright>Copyright (c) NTT Resonant Inc.</copyright>
