@@ -19,8 +19,7 @@
     <iconUrl>https://static.e-junkie.com/sslpic/120515.92ab955050f201841edd9e9cc5e67103.gif</iconUrl>
     
     <dependencies>
-      <!-- At this time, there is no published version of .NET 4.6 on Chocolatey -->
-      <dependency id="dotnet4.5"/>
+      <dependency id="dotnet4.6" version="4.6.0.20150720" />
     </dependencies>
   </metadata>
   <files>
