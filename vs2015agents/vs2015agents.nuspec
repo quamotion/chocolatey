@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>vs2015agents</id>
+    <title>Agents for Microsoft Visual Studio 2015 (Install)</title>
+    <version>14.0.23107.10</version>
+    <authors>Microsoft Corporation</authors>
+    <owners>quamotion</owners>
+    <summary>Agents for Visual Studio 2015 contains agents which you can use to run your automated tests on a remote machine.</summary>
+    <description>By using Agents for Visual Studio 2015, you can distribute your automated tests across multiple remote machines. This agent is downloaded, installed and configured as a part of the Visual Studio Test Agent Deployment task in the build task catalog.</description>
+    <projectUrl>http://www.microsoft.com/en-us/download/details.aspx?id=48152</projectUrl>
+    <packageSourceUrl>https://github.com/quamotion/chocolatey</packageSourceUrl>
+    <tags>Visual Studio 2015 Agents Test MSTest</tags>
+    <licenseUrl>http://www.microsoft.com/en-us/download/details.aspx?id=48152</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://github.com/mwrock/Chocolatey-Packages/raw/master/VisualStudio2012Ultimate/vs.png</iconUrl>
+    <dependencies>
+      <dependency id="dotnet4.5" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
