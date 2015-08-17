@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>microsoft-build-tools-2015</id>
+    <title>Microsoft Build Tools 2015 (Install)</title>
+    <version>14.0.23107.10</version>
+    <authors>Microsoft Corporation</authors>
+    <owners>quamotion</owners>
+    <summary>Microsoft Build Tools 2015 provides the essential tools for building managed applications.</summary>
+    <description>If you don't already have Visual Studio installed on your computer, Microsoft Build Tools 2015 provides the essential tools for building managed applications. These tools previously were included in the .NET Framework, but they are now available as this separate download. The Visual Basic and C# compilers are also included in this download.</description>
+    <projectUrl>http://www.microsoft.com/en-us/download/details.aspx?id=48159</projectUrl>
+    <packageSourceUrl>https://github.com/quamotion/chocolatey</packageSourceUrl>
+    <tags>Microsoft Build Tools 2015 MSBuild Compiler</tags>
+    <copyright>Copyright (c) 2015 Microsoft Corporation</copyright>
+    <licenseUrl>http://www.microsoft.com/en-us/download/details.aspx?id=48159</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://static.e-junkie.com/sslpic/120515.92ab955050f201841edd9e9cc5e67103.gif</iconUrl>
+    
+    <dependencies>
+      <!-- At this time, there is no published version of .NET 4.6 on Chocolatey -->
+      <dependency id="dotnet4.5"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
