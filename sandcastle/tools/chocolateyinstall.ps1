@@ -1,7 +1,7 @@
 ﻿# stop on all errors
 $ErrorActionPreference = 'Stop';
 
-$versionNumber = '2015.7.25.0'
+$versionNumber = '2015.10.10.0'
 $packageName = 'sandcastle' # arbitrary name for the package, used in messages
 $registryUninstallerKeyName = 'sandcastle' #ensure this is the value in the registry
 $installerType = 'MSI' #only one of these: exe, msi, msu
