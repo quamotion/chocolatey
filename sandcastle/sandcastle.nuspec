@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>sandcastle</id>
     <title>Sandcastle Help File Builder and Tools (Install)</title>
-    <version>2015.5.2.0 </version>
+    <version>2015.7.25.0</version>
     <authors>Eric Woodruff</authors>
     <owners>quamotion</owners>
     <summary>Sandcastle Help File Builder (SHFB). A standalone GUI, Visual Studio integration package, and MSBuild tasks providing full configuration and extensibility for building help files with the Sandcastle tools.</summary>
@@ -21,7 +21,7 @@ The Sandcastle Help File Builder was created to fill in the gaps, provide the mi
     <dependencies>
       <dependency id="dotnet4.0" version="4.0.30319" />
     </dependencies>
-    <releaseNotes>https://github.com/EWSoftware/SHFB/releases/tag/v2015.5.2.0</releaseNotes>
+    <releaseNotes>https://github.com/EWSoftware/SHFB/releases/tag/v2015.7.25.0</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
