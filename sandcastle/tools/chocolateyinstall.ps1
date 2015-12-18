@@ -3,7 +3,6 @@ $ErrorActionPreference = 'Stop';
 
 $versionNumber = '2015.10.10.0'
 $packageName = 'sandcastle' # arbitrary name for the package, used in messages
-$registryUninstallerKeyName = 'sandcastle' #ensure this is the value in the registry
 $installerType = 'MSI' #only one of these: exe, msi, msu
 $url = 'https://github.com/EWSoftware/SHFB/releases/download/v' + $versionNumber + '/SHFBInstaller_v' + $versionNumber + '.zip' # download url
 $silentArgs = '/quiet'
