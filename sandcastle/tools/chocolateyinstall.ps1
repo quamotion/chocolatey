@@ -16,4 +16,4 @@ Get-ChocolateyWebFile "$packageName" "$zipFile" "$url"
 Get-ChocolateyUnzip "$zipFile" "$zipDir"
 
 $file = Join-Path $zipDir "InstallResources\SandcastleHelpFileBuilder.msi"
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$file"
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$file" -validExitCodes $validExitCodes
