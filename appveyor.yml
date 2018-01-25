@@ -1,7 +1,6 @@
 build_script:
   - cd remotetestkit
   - choco pack
-  - choco install remotetestkit -dv -s .
 
 artifacts:
   - path: remotetestkit\remotetestkit.**.nupkg
