@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>remotetestkit</id>
     <title>Remote TestKit (Install)</title>
-    <version>5.0.0.4</version>
+    <version>7.2.1.1</version>
     <authors>NTT Resonant Inc.</authors>
     <owners>Quamotion</owners>
     <summary>Rent over 300 different real, physical mobile devices from the cloud.</summary>
