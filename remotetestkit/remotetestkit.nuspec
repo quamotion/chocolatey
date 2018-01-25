@@ -18,6 +18,9 @@ See the https://appkitbox.com/en/testkit/smartphone for a full list of all devic
     <licenseUrl>https://appkitbox.com/en/testkit/agreement</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://appkitbox.com/en/testkit/category/news</releaseNotes>
+    <packageSourceUrl>https://github.com/quamotion/chocolatey/tree/master/remotetestkit</packageSourceUrl>
+    <iconUrl>http://www.qatestingtools.com/sites/default/files/tools_shortcuts/Remote%20Testkit%20150.png</iconUrl>
+    <docsUrl>https://appkitbox.com/en/testkit/support/manual/</docsUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
